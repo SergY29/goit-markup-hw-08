@@ -1,17 +1,18 @@
-.menu {
-    display: flex;
+.menu-desktop {
+    display: none;
+    // display: flex;
 }
 
-.menu__item {
+.menu-desktop__item {
     position: relative;
     
 }
 
-.menu__item + .menu__item {
+.menu-desktop__item + .menu-desktop__item {
     margin-left: 50px;
 }
 
-.menu__link {
+.menu-desktop__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -32,7 +33,7 @@
     }
 }
 
-.menu__link--current {
+.menu-desktop__link--current {
     position: relative;
     color: var(--accent-color);
 

@@ -1,27 +1,31 @@
-@import './utils/variables';
-@import './base/normalize';
-@import './base/base';
-@import './utils/hidden';
-@import './utils/placeholders';
-@import './layouts/container';
+@import './utils/variables1';
+@import './base/normalize1';
+@import './base/base1';
+@import './utils/hidden1';
+// @import './utils/placeholders';
+@import './layouts/container1';
 
-@import './components/section';
-@import './components/page-header';
-@import './components/hero-section';
-@import './components/feachers-section';
-@import './components/services-section';
-@import './components/team-section';
-@import './components/clients-section';
-@import './components/footer-section';
-@import './components/portfolio-section';
 
-@import './components/menu';
-@import './components/contact';
-@import './components/logo';
-@import './components/buttons';
-@import './components/social-network';
-@import './components/subscribe-form';
-@import './components/checkbox';
-@import './components/backdrop';
-@import './components/modal';
-@import './components/form-modal';
+@import './components/page-header1';
+@import './components/site-nav1';
+@import './components/menu-desctop1';
+// @import './components/section';
+// @import './components/hero-section';
+// @import './components/feachers-section';
+// @import './components/services-section';
+// @import './components/team-section';
+// @import './components/clients-section';
+// @import './components/footer-section';
+// @import './components/portfolio-section';
+
+@import './components/logo1';
+// @import './components/menu';
+// @import './components/contact';
+
+// @import './components/buttons';
+// @import './components/social-network';
+// @import './components/subscribe-form';
+// @import './components/checkbox';
+// @import './components/backdrop';
+// @import './components/modal';
+// @import './components/form-modal';
