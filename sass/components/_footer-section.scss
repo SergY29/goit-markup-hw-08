@@ -1,0 +1,65 @@
+.footer {
+    background-color: var(--alternative-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.find-us {
+    min-width: 231px;
+}
+
+.address {
+    color: var(--primary-background-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer__address {
+    margin-top: 20px;
+}
+
+.address-link {
+    display: block;
+    color: var(--alternative-text-color);
+    text-decoration: none;
+
+    transition-duration: 250ms;
+    transition-property: color;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+            }
+}
+
+.footer__address-link {
+    margin-top: 9px;
+}
+
+.footer__community {
+    margin-left: 70px;
+}
+
+.community__title {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+}
+
+

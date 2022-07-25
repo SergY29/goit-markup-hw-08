@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: var(--font-family-primary), Verdana, Tahoma, arial, sans-serif;
+    font-weight: 400;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}

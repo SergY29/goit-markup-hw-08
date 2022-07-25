@@ -1,0 +1,50 @@
+.modal {
+    padding: 40px;
+
+    min-width: 528px;
+    min-height: 581px;
+    opacity: 1;
+    visibility: visible;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    background-color: var(--primary-background-color);
+    box-shadow: var(--modal-shadow);
+    border-radius: 4px;
+
+    transition-property: transform, opacity, visibility;
+    transition-duration: 400ms;
+    transition-timing-function: earse;
+}
+
+.backdrop.is-hidden .modal {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
+.modal__button-close {
+    top: 8px;
+    right: 8px;
+    border: 1px solid var(--modal-close-border);
+    border-radius: 50%;
+
+    transition-duration: 250ms;
+    transition-property: fill;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--modal-close);
+
+    
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
+
+.svg-close {
+    display: block;
+    margin: auto;
+}

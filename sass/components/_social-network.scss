@@ -1,0 +1,48 @@
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+.social-network__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-network__item+.social-network__item {
+    margin-left: 10px;
+}
+
+.social-network__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    transition-duration: 250ms;
+    transition-property: background-color, fill;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-network__icon--team {
+    fill: var(--icon-background-socials);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    fill: var(--primary-background-color);
+        }
+}
+
+.social-network__icon--join {
+    fill: var(--primary-background-color);
+    background-color: var(--icon-footer);
+
+        &:hover,
+        &:focus {
+        background-color: var(--accent-color);
+        fill: var(--primary-background-color);
+        }
+}

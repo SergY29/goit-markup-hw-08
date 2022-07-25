@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+        url('..//fonts/Roboto-Regular.woff2') format('woff2'),
+        url('..//fonts/Roboto-Regular.woff') format('woff'),
+        url('..//fonts/Roboto-Regular.ttf') format('truetype'),
+        url('..//fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+        url('..//fonts/Roboto-Bold.woff2') format('woff2'),
+        url('..//fonts/Roboto-Bold.woff') format('woff'),
+        url('..//fonts/Roboto-Bold.ttf') format('truetype'),
+        url('..//fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+        url('..//fonts/Raleway-Bold.woff2') format('woff2'),
+        url('..//fonts/Raleway-Bold.woff') format('woff'),
+        url('..//fonts/Raleway-Bold.ttf') format('truetype'),
+        url('..//fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+        url('..//fonts/Roboto-Black.woff2') format('woff2'),
+        url('..//fonts/Roboto-Black.woff') format('woff'),
+        url('..//fonts/Roboto-Black.ttf') format('truetype'),
+        url('..//fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+        url('..//fonts/Roboto-Medium.woff2') format('woff2'),
+        url('..//fonts/Roboto-Medium.woff') format('woff'),
+        url('..//fonts/Roboto-Medium.ttf') format('truetype'),
+        url('..//fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --primary-background-color: #ffffff;
+    --alternative-background-color: #2f303a;
+    --backgroung-color-hero: #c4c4c4;
+    --acccent-background-color: #f5f4fa;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --alternative-text-color: rgba(255, 255, 255, 0.6);
+    --icon-footer: rgba(255, 255, 255, 0.1);
+    --accent-color: #2196f3;
+    --icon-background-socials: #afb1b8;
+    --button-hero-shadow: rgba(0, 0, 0, 0.15);
+    --button-portfolio-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    --button-portfolio-shadow-active: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --button-accent-color: #188ce8;
+    --font-family-primary: "Roboto";
+    --border-color-header: #ececec;
+    --border-color-portfoli-cards: #eeeeee;
+    --border-color-footer: rgba(255, 255, 255, 0.3);
+    --shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --shadow-example: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    --overlay-cover-img: rgba(47, 48, 58, 0.4);
+    --overlay-work-description: rgba(47, 48, 58, 0.8);
+    --ovelay-box-shadow: rgba(33, 150, 243, 0.9);
+    --modal-background: rgba(0, 0, 0, 0.2);
+    --modal-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --modal-input-border: rgba(33, 33, 33, 0.2);
+    --modal-close: #000000;
+    --modal-close-border: rgba(0, 0, 0, 0.1);
+    --placeholder-text: rgba(117, 117, 117, 0.5);
+}
