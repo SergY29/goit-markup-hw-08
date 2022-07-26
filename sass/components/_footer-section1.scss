@@ -6,10 +6,15 @@
 
 .footer__container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .find-us {
-    min-width: 231px;
+    // display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    // min-width: 231px;
 }
 
 .address {
