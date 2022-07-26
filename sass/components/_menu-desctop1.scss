@@ -1,7 +1,11 @@
 .menu-desktop {
     display: none;
-    // display: flex;
+
+    @media (min-width: 768px) {
+        display: flex;
+            }
 }
+
 
 .menu-desktop__item {
     position: relative;

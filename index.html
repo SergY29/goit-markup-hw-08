@@ -17,7 +17,16 @@
           <a href="./index.html" class="logo site-nav__logo"
             >Web<span class="logo__text logo__text--black">Studio</span></a
           >
-          <!-- <ul class="menu-mobile">
+          <button type="button" class="button-menu" data-mobile-menu-open>
+            <svg width="40" height="40" aria-label="Кнопка активации мобильного меню">
+              <use class="icon-menu" href="./images/icon.svg#icon-menu"></use>
+          </button>
+          <div class="menu-mobile is-hidden" data-mobile-menu>
+            <button type="button" class="close" data-mobile-menu-close>
+             <svg width="40" height="40" aria-label="Кнопка закрытия мобильного меню" >
+              <use class="icon-close-mobile" href="./images/icon.svg#icon-close-mobile"></use>
+           </button>
+            <ul class="menu-mobile__contact">
             <li class="menu-mobile__item">
               <a
                 href="./index.html"
@@ -33,7 +42,8 @@
             <li class="menu-mobile__item">
               <a href="" class="menu-mobile__link">Контакты</a>
             </li>
-          </ul> -->
+           </ul>
+          </div>
           <ul class="menu-desktop">
             <li class="menu-desktop__item">
               <a
@@ -615,6 +625,7 @@
       </div>
     </div> -->
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

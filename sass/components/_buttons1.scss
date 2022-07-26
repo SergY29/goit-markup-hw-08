@@ -1,0 +1,99 @@
+.button-menu {
+//    & .icon-close-mobile {
+//     display: none;
+//    }
+
+//    &.is-open .icon-close-mobile {
+//     display: block;
+//     fill: var(--primary-text-color);
+//    }
+
+//    &.is-open .icon-menu {
+//     display: none;
+//    }
+
+   @media (min-width: 768px) {
+       display: none;
+   }
+
+}
+
+
+
+// .hero__button {
+//     @extend %button;
+//     min-width: 200px;
+//     padding: 10px 32px;
+//     font-family: var(--font-family-primary);
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.875;
+//     align-items: center;
+//     letter-spacing: 0.06em;
+//     color: var(--primary-background-color);
+//     background-color: var(--accent-color);
+//     box-shadow: 0px 4px 4px var(--button-hero-shadow);
+//     transition-duration: 250ms;
+//     transition-property: background-color;
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+//     &:hover,
+//     &:focus {
+//         background-color: var(--button-accent-color);
+//     }
+// }
+
+// .button-close {
+//     position: absolute;
+//     width: 30px;
+//     height: 30px;
+//     border: 1px solid black;
+//     border-radius: 50%;
+// }
+
+// .portfolio__button {
+//     @extend %button;
+//     min-width: 73px;
+//     padding: 6px 22px;
+//     background-color: var(--acccent-background-color);
+//     font-family: var(--font-family-primary);
+//     color: var(--primary-text-color);
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.6;
+//     letter-spacing: 0.03em;
+//     transition-duration: 250ms;
+//     transition-property: background-color, color, box-shadow;
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//     background-color: var(--accent-color);
+//     color: var(--primary-background-color);
+//     cursor: pointer;
+//     box-shadow: var(--button-portfolio-shadow-active);
+//     }
+// }
+
+// .modal__button {
+//     display: block;
+//     margin: 0 auto;
+//     padding: 10px 55px 10px 56px;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.875;
+//     letter-spacing: 0.06em;
+//     color: var(--primary-background-color);
+//     background-color: var(--accent-color);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;
+//     transition-duration: 250ms;
+//     transition-property: background-color;
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//     background-color: var(--button-accent-color);
+//     }
+// }
