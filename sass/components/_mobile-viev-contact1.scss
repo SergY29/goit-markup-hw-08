@@ -1,41 +1,41 @@
 
-.mobile-viev-contact {
-    display: flex;
-    margin-left: auto;
-}
+// .mobile-viev-contact {
+//     display: flex;
+//     margin-left: auto;
+// }
 
-.contacts__item+.contacts__item {
-    margin-left: 30px;
-}
+// .contacts__item+.contacts__item {
+//     margin-left: 30px;
+// }
 
-.contacts__link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+// .contacts__link {
+//     padding-top: 32px;
+//     padding-bottom: 32px;
 
-    display: flex;
-    align-items: center;
+//     display: flex;
+//     align-items: center;
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--title-text-color);
-    transition-property: color;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     text-decoration: none;
+//     color: var(--title-text-color);
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
-        &:hover,
-        &:focus {
-            color: var(--accent-color);
-}
-}
+//         &:hover,
+//         &:focus {
+//             color: var(--accent-color);
+// }
+// }
 
-.icon {
-    fill: currentColor;
-}
+// .icon {
+//     fill: currentColor;
+// }
 
-.contact__icon {
-    margin-right: 10px;
-}
+// .contact__icon {
+//     margin-right: 10px;
+// }

@@ -3,13 +3,11 @@
 
     @media (min-width: 768px) {
         display: flex;
-            }
+    }
 }
-
 
 .menu-desktop__item {
     position: relative;
-    
 }
 
 .menu-desktop__item + .menu-desktop__item {
@@ -29,7 +27,6 @@
     transition-property: color;
     transition-duration: 250ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 
     &:hover, 
     &:focus {

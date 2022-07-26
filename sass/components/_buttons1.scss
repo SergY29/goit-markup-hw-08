@@ -6,6 +6,9 @@
 
 .button-menu-close {
     fill: var(--primary-text-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
