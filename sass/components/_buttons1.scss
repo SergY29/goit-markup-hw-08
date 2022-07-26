@@ -1,22 +1,18 @@
 .button-menu {
-//    & .icon-close-mobile {
-//     display: none;
-//    }
-
-//    &.is-open .icon-close-mobile {
-//     display: block;
-//     fill: var(--primary-text-color);
-//    }
-
-//    &.is-open .icon-menu {
-//     display: none;
-//    }
-
    @media (min-width: 768px) {
        display: none;
    }
-
 }
+
+.button-menu-close {
+    fill: var(--primary-text-color);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
 
 
 
