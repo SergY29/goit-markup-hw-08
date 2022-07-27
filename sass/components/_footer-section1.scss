@@ -6,14 +6,25 @@
 
 .footer__container {
     display: flex;
+    @media (max-width: 1199px) {
     flex-direction: column;
     align-items: center;
+    }
+
+    // display: flex;
+
 }
 
 .find-us {
-    // display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
+    @media (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 232px;
+    }
+
+
     // min-width: 231px;
 }
 
@@ -24,6 +35,9 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+
+
+
 }
 
 .footer__address {
