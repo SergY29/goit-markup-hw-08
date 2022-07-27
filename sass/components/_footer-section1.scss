@@ -6,26 +6,28 @@
 
 .footer__container {
     display: flex;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+        
     @media (max-width: 1199px) {
-    flex-direction: column;
     align-items: center;
     }
-
-    // display: flex;
-
 }
 
 .find-us {
+    max-width: 232px;
+
+    @media (min-width: 768px){
+        min-width: 232px;
+    }
+
     @media (max-width: 1199px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    max-width: 232px;
     }
-
-
-    // min-width: 231px;
 }
 
 .address {
@@ -36,8 +38,11 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
 
-
-
+    @media (max-width: 1199px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .footer__address {
@@ -53,7 +58,6 @@
     transition-property: color;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-
         &:hover,
         &:focus {
             color: var(--accent-color);
@@ -61,15 +65,28 @@
 }
 
 .footer__address-link {
-    margin-top: 9px;
+    margin-top: 8px;
+
+    @media (min-width: 1200px) {
+        margin-top: 9px;
+    }
 }
 
 .footer__community {
-    margin-left: 70px;
+    @media (max-width: 767px) {
+        margin-top: 60px;
+    }
+    
+    @media (min-width: 768px) {
+        margin-left: 165px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-left: 70px;
+    }
 }
 
 .community__title {
-    margin-top: 12px;
     margin-bottom: 20px;
     display: inline-block;
 
@@ -79,6 +96,14 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-background-color);
+    
+    @media (min-width: 768px) and (max-width: 1199px) {
+        margin-top: 5px;
+    }
+
+    @media (min-width: 1200px) {
+            margin-top: 12px;
+        }
 }
 
 
