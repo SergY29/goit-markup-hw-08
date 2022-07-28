@@ -1,0 +1,84 @@
+$hero-image-gradient:linear-gradient(to right, var(--overlay-cover-img), var(--overlay-cover-img));
+
+.hero {
+    height: 400px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--backgroung-color-hero);
+    text-align: center;
+
+    @media (min-width: 1200px) {
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        }
+    }
+
+
+ @media (max-width: 768px) {
+    .hero {
+        background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x1.jpg");
+
+     
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+                background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x2.jpg");
+                }
+        }
+    }
+
+ @media (min-width: 768px) and (max-width: 1199px) {
+         .hero {
+         background-image: $hero-image-gradient, url("../images/hero-background-image/hero-tablet@x1.jpg");
+
+         @media (min-device-pixel-ratio: 2),
+         (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             background-image: $hero-image-gradient, url("../images/hero-background-image/hero-tablet@x2.jpg");
+         }
+        }
+    }
+
+ @media (min-width: 1200px) {
+     .hero {
+         background-image: $hero-image-gradient, url("../images/hero-background-image/hero-desktop@x1.jpg");
+
+         @media (min-device-pixel-ratio: 2),
+         (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             background-image: $hero-image-gradient, url("../images/hero-background-image/hero-desktop@x2.jpg");
+         }
+         }
+    }
+
+.title {
+    max-width: 360px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+
+    @media (min-width: 1200px) {
+        max-width: 696px;
+        font-size: 44px;
+        line-height: 1.36;
+    }
+}
+
+.hero__title {
+    margin: 0 auto 30px;
+}
+
+
