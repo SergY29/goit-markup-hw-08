@@ -1,13 +1,24 @@
 .feachers__list {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
 }
 
 .feachers__item {
-    width: 270px;
-}
+    width: 100%;
 
-.feachers__item+.feachers__item {
-    margin-left: 30px;
+    @media (min-width: 768px) {
+            flex-basis: calc(50% - 15px);
+        }
+    
+    @media (min-width: 1200px) {
+        flex-basis: calc(25% - 22.5px);
+        }
 }
 
 .feachers__svg {
@@ -26,11 +37,13 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    @media (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .feachers__description {
-    margin: 0 0 16px 0;
-
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
