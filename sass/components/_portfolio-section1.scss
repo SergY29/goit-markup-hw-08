@@ -1,28 +1,41 @@
 .buttons-switchers {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 8px;
+    justify-content: flex-start;
+
+    @media (max-width: 767px) {
+            max-width: 326px;
+        }
+
+    @media (min-width: 768px){
+        justify-content: center;
+    }
 }
 
 .portfolio__buttons-switchers {
-    margin-bottom: 50px;
-}
+    margin-bottom: 30px;
 
-.buttons-switchers__item + .buttons-switchers__item {
-    margin-left: 8px;
+    @media (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
 }
 
 .work-example {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100% - 60px) / 3);
+    justify-content: center;
+
 }
 
 .work-example__item {
+
+
     transition-duration: 250ms;
     transition-property: box-shadow;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 
     &:hover {
         box-shadow: var(--shadow-example);
@@ -31,6 +44,7 @@
 }
 
 .work-example__image-text-overlay {
+    // width: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -85,7 +99,7 @@
 
 .work-description__text {
     margin-top: 0;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
 
     font-weight: 400;
     font-size: 16px;

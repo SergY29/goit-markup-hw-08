@@ -71,36 +71,36 @@
     }
 }
 
+.portfolio__button {
+    @extend %button;
+    // min-width: 73px;
+    padding: 6px 22px;
+    background-color: var(--acccent-background-color);
+    font-family: var(--font-family-primary);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    transition-duration: 250ms;
+    transition-property: background-color, color, box-shadow;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+    cursor: pointer;
+    box-shadow: var(--button-portfolio-shadow-active);
+    }
+}
+
 // .button-close {
 //     position: absolute;
 //     width: 30px;
 //     height: 30px;
 //     border: 1px solid black;
 //     border-radius: 50%;
-// }
-
-// .portfolio__button {
-//     @extend %button;
-//     min-width: 73px;
-//     padding: 6px 22px;
-//     background-color: var(--acccent-background-color);
-//     font-family: var(--font-family-primary);
-//     color: var(--primary-text-color);
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.6;
-//     letter-spacing: 0.03em;
-//     transition-duration: 250ms;
-//     transition-property: background-color, color, box-shadow;
-//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//     &:hover,
-//     &:focus {
-//     background-color: var(--accent-color);
-//     color: var(--primary-background-color);
-//     cursor: pointer;
-//     box-shadow: var(--button-portfolio-shadow-active);
-//     }
 // }
 
 // .modal__button {
