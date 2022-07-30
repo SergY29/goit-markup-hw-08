@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
+    flex-grow: 3;
+    // display: block;
 
 
     text-align: center;
@@ -22,8 +23,6 @@
 .modal__checkbox {
     margin-top: 20px;
     margin-bottom: 30px;
-
-
 }
 
 .checkbox__input {
@@ -45,7 +44,6 @@
     transition-duration: 250ms;
     transition-property: background-color;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 
         .checkbox__input:checked + & {
         background-color: var(--accent-color);
