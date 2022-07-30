@@ -26,7 +26,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
 }
 
 
@@ -52,9 +51,7 @@
     }
 }
 
-
 .work-example__image-text-overlay {
-    // width: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -65,13 +62,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 63px 24px;
+    padding: 77px 24px;
     transform: translatey(101%);
     background-color: var(--ovelay-box-shadow);
 
     transition-duration: 250ms;
     transition-property: transform;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media (min-width: 768px) {
+    padding: 49px 24px;
+        }
+    
+    @media (min-width: 1200px) {
+    padding: 63px 24px;
+    }
 
     .work-example__item:hover & {
             transform: translateY(0);

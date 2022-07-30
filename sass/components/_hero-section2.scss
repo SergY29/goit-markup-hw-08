@@ -13,31 +13,18 @@ $hero-image-gradient:linear-gradient(to right, var(--overlay-cover-img), var(--o
     background-color: var(--backgroung-color-hero);
     text-align: center;
 
-    @media (min-width: 1200px) {
-        height: 600px;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        }
-    }
+    background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x1.jpg");
 
-
- @media (max-width: 768px) {
-    .hero {
-        background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x1.jpg");
-
-     
     @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-                background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x2.jpg");
-                }
+            background-image: $hero-image-gradient, url("../images/hero-background-image/hero-mobile@x2.jpg");
         }
-    }
 
- @media (min-width: 768px) and (max-width: 1199px) {
-         .hero {
-         background-image: $hero-image-gradient, url("../images/hero-background-image/hero-tablet@x1.jpg");
+
+    @media (min-width: 768px) {
+        background-image: $hero-image-gradient, url("../images/hero-background-image/hero-tablet@x1.jpg");
 
          @media (min-device-pixel-ratio: 2),
          (-webkit-min-device-pixel-ratio: 2),
@@ -46,18 +33,20 @@ $hero-image-gradient:linear-gradient(to right, var(--overlay-cover-img), var(--o
              background-image: $hero-image-gradient, url("../images/hero-background-image/hero-tablet@x2.jpg");
          }
         }
-    }
+    
+    
+    @media (min-width: 1200px) {
+        background-image: $hero-image-gradient, url("../images/hero-background-image/hero-desktop@x1.jpg");
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        }
 
- @media (min-width: 1200px) {
-     .hero {
-         background-image: $hero-image-gradient, url("../images/hero-background-image/hero-desktop@x1.jpg");
-
-         @media (min-device-pixel-ratio: 2),
+        @media (min-device-pixel-ratio: 2),
          (-webkit-min-device-pixel-ratio: 2),
          (min-resolution: 192dpi),
          (min-resolution: 2dppx) {
              background-image: $hero-image-gradient, url("../images/hero-background-image/hero-desktop@x2.jpg");
-         }
          }
     }
 

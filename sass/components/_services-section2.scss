@@ -1,9 +1,10 @@
 .services {
-    @media (max-width:1199px) {
     display: none;
-    }
-    
     padding-top: 0;
+
+    @media (min-width:1200px) {
+    display: block;
+    }
 }
 
 .services__title {
