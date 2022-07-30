@@ -5,8 +5,6 @@
     left: 50%;
     transform: scale(1) translate(-50%, -50%);
 
-
-
     @media (min-width:480px) {
         position: absolute;
         min-width: 450px;
@@ -15,21 +13,14 @@
         left: 50%;
         transform: scale(1) translate(-50%, -50%);
     }
-    
 
     @media (min-width:1200px) {
         min-width: 528px;
         min-height: 581px;
     }
 
-    
     opacity: 1;
     visibility: visible;
-
-    // position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: scale(1) translate(-50%, -50%);
     background-color: var(--primary-background-color);
     box-shadow: var(--modal-shadow);
     border-radius: 4px;
