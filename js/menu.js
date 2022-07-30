@@ -8,7 +8,8 @@
     refs.openMobileMenuBtn.addEventListener("click", toggleMobileMenu);
     refs.closeMobileMenuBtn.addEventListener("click", toggleMobileMenu);
   
-    function toggleMobileMenu() {
+  function toggleMobileMenu() {
+      document.body.classList.toggle("modal-open");
       refs.mobileMenu.classList.toggle("is-hidden");
     }
   })();
