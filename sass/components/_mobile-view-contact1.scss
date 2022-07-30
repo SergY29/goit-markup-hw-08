@@ -9,19 +9,16 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
-    transition-property: color;
+    transition-property: color font-size;
     transition-duration: 250ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         &:hover,
         &:focus {
-             color: var(--button-accent-color);
+             color: var(--accent-color);
+            font-size: 34px;
          }
 }
 
-.mobile-view-contact__link--large {
-    font-size: 34px;
-    color: var(--accent-color);
 
-}
 
