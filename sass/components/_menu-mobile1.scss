@@ -1,4 +1,8 @@
 .menu-mobile-container {
+    display: flex;
+    flex-direction: column;
+
+
     padding: 48px 40px;
     position: fixed;
     left: 0;
@@ -17,6 +21,10 @@
     fill: var(--primary-background-color);
 }
 
+.menu-mobile {
+    flex-grow: 1;
+}
+
 .menu-mobile__item {
     position: relative;
 }
@@ -28,12 +36,12 @@
 .menu-mobile__link {
     display: inline-block;
 
-    padding-bottom: 5px;
     font-weight: 500;
     font-size: 40px;
-    line-height: 1.175;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
+    font-style: normal;
     color: var(--primary-text-color);
     transition-property: color;
     transition-duration: 250ms;
@@ -48,7 +56,6 @@
 .menu-mobile__link--current {
     position: relative;
     color: var(--accent-color);
-
 
     &::after {
         position: absolute;

@@ -1,33 +1,27 @@
-.mobile-view-contact{
-    margin-top: 302px;
+.mobile-view-contact__item+.mobile-view-contact__item {
+    margin-top: 32px;
 }
 
+.mobile-view-contact__link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+        &:hover,
+        &:focus {
+             color: var(--button-accent-color);
+         }
+}
 
-// .contacts__link {
+.mobile-view-contact__link--large {
+    font-size: 34px;
+    color: var(--accent-color);
 
+}
 
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.02em;
-//     text-decoration: none;
-//     color: var(--title-text-color);
-//     transition-property: color;
-//     transition-duration: 250ms;
-//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
-//         &:hover,
-//         &:focus {
-//             color: var(--accent-color);
-// }
-// }
-
-// .icon {
-//     fill: currentColor;
-// }
-
-// .contact__icon {
-//     margin-right: 10px;
-// }
