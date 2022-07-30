@@ -1,19 +1,29 @@
 .checkbox {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
+
+
     text-align: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+
+    @media (min-width:1200px) {
+            font-size: 14px;
+    }
+
 }
 
 .modal__checkbox {
     margin-top: 20px;
     margin-bottom: 30px;
+
+
 }
 
 .checkbox__input {

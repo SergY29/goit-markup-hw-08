@@ -1,8 +1,6 @@
 .backdrop {
     padding:  94px 15px 94px 15px;
 
-
-
     position: fixed;
     background-color: var(--modal-background);
     top: 0;
@@ -18,6 +16,10 @@
     transition-property: opacity, transform, visibility;
     transition-duration: 400ms;
     transition-timing-function: earse;
+
+    @media (min-width:480px) {
+        padding: 0;
+    }
 
         &.is-hidden{
         opacity: 0;
