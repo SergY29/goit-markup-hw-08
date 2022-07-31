@@ -57,15 +57,15 @@
     position: relative;
     color: var(--accent-color);
 
-    &::after {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        content: '';
-        background-color: var(--accent-color);
-        width: 100%;
-        height: 4px;
-        border-radius: 2px;
-    }
+    // &::after {
+    //     position: absolute;
+    //     bottom: 0;
+    //     right: 0;
+    //     content: '';
+    //     background-color: var(--accent-color);
+    //     width: 100%;
+    //     height: 4px;
+    //     border-radius: 2px;
+    // }
 
 }
